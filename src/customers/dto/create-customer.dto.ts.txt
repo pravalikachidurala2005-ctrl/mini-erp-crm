@@ -1,0 +1,12 @@
+export class CreateCustomerDto {
+  name: string;
+  mobile: string;
+  email?: string;
+  businessName: string;
+  gstNumber?: string;
+  type: string;
+  address: string;
+  status: string;
+  followUpDate?: Date;
+  notes?: string;
+}
